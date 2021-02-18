@@ -54,7 +54,7 @@ class App extends React.Component {
               value={this.state.newItem}
               onChange={e => this.updateInput(e.target.value)}
             />
-            //hello aashish
+            
             <button
               className="add-btn"
               onClick={() => this.addItem(this.state.newItem)}
